@@ -1,0 +1,19 @@
+body {
+
+}
+
+.container {
+    background: #008086;
+    width: 564px;
+    height: 845px;
+}
+
+.white1 {
+    background: #ffffff;
+    width: 335px;
+    height: 60px;
+    transform: rotate(20deg) skew(20deg);
+    position: relative;
+    top: 373px;
+    left: -10px;
+}
