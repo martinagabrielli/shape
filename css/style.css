@@ -13,7 +13,57 @@ body {
     width: 335px;
     height: 60px;
     transform: rotate(20deg) skew(20deg);
-    position: relative;
+    position: absolute;
     top: 373px;
-    left: -10px;
+    left: -2px;
+}
+
+.red1 {
+    background: #C5342D;
+    width: 335px;
+    height: 25px;
+    transform: rotate(20deg) skew(20deg);
+    position: absolute;
+    top: 435px;
+    left: -2px;
+}
+
+.white2 {
+    background: #ffffff;
+    width: 335px;
+    height: 18px;
+    transform: rotate(20deg) skew(20deg);
+    position: absolute;
+    top: 461px;
+    left: -2px;
+}
+
+.red2 {
+    background: #C5342D;
+    width: 335px;
+    height: 95px;
+    transform: rotate(20deg) skew(20deg);
+    position: absolute;
+    top: 483px;
+    left: -2px;
+}
+
+.darkred1 {
+    background: #210703;
+    width: 335px;
+    height: 8px;
+    transform: rotate(20deg) skew(20deg);
+    position: absolute;
+    top: 581px;
+    left: -2px;
+}
+
+.black1 {
+    background: #000000;
+    width: 311px;
+    height: 12px;
+    transform: rotate(20deg) skew(-40deg);
+    position: absolute;
+    top: 586px;
+    left: -1px;
 }
