@@ -5,7 +5,7 @@ body {
 .container {
     background: #008086;
     width: 564px;
-    height: 845px;
+    height: 860px;
 }
 
 .white1 {
@@ -59,24 +59,51 @@ body {
 }
 
 .black1 {
-    /* background: #000000;
-    width: 311px;
-    height: 12px;
-    transform: rotate(20deg) skew(-40deg);
-    border-right: 50px solid transparent;
-    border-left: 50px solid transparent;
-    border-bottom: 50px solid red;
-    position: absolute;
-    top: 586px;
-    left: -1px; */
-
-    width: 307px;
+    width: 296px;
     height: 12px;
     transform: rotate(196deg) skew(16deg);
     border-right: 0px solid transparent;
     border-left: 15px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
-    top: 582px;
+    top: 581px;
     left: 2px;
 }
+
+.green1 {
+    background: #003C00;
+    width: 296px;
+    height: 8px;
+    transform: rotate(16deg) skew(16deg);
+    position: absolute;
+    top: 588px;
+    left: 2px;
+}
+
+.green2 {
+    /* background: #002700;
+    width: 266px;
+    height: 8px;
+    transform: rotate(16deg) skew(16deg); */
+    width: 282px;
+    height: 8px;
+    transform: rotate(196deg) skew(16deg);
+    border-right: 0px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 10px solid #002700;
+    position: absolute;
+    top: 596px;
+    left: 2px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 174px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 174px solid #4C3A1F;
+    transform: rotate(196deg);
+    position: absolute;
+    top: 591px;
+    left: -19px;
+  }
