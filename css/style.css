@@ -130,3 +130,15 @@ body {
       top: 699px;
       left: -39px;
   }
+
+  .green3 {
+    width: 339px;
+    height: 0px;
+    transform: rotate(330deg) skew(58deg);
+    border-right: 0px solid transparent;
+    border-left: 18px solid transparent;
+    border-bottom: 8px solid #003C00;
+    position: absolute;
+    top: 720px;
+    left: -23px;
+  }
