@@ -8,6 +8,27 @@ body {
     height: 840px;
 }
 
+#viewport {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    perspective: 400;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+#world {
+    height: 512px;
+    left: 50%;
+    margin-left: -256px;
+    margin-top: -256px;
+    position: absolute;
+    top: 50%;
+    transform-style: preserve-3d;
+    width: 512px;
+}
+
 .white1 {
     background: #ffffff;
     width: 335px;
@@ -146,11 +167,11 @@ body {
   .green4 {
     width: 312px;
     height: 0px;
-    transform: rotate(330deg) skew(64deg);
+    transform: rotate(330deg) skew(56deg);
     border-right: 0px solid transparent;
     border-left: 21px solid transparent;
-    border-bottom: 8px solid #002700;
+    border-bottom: 11px solid #002700;
     position: absolute;
-    top: 717px;
+    top: 714px;
     left: -23px;
   }
