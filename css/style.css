@@ -73,7 +73,7 @@ body {
 
 .green1 {
     background: #003C00;
-    width: 310px;
+    width: 312px;
     height: 8px;
     transform: rotate(16deg) skew(16deg);
     position: absolute;
@@ -87,12 +87,12 @@ body {
     width: 266px;
     height: 8px;
     transform: rotate(16deg) skew(16deg); */
-    width: 295px;
+    width: 302px;
     height: 8px;
-    transform: rotate(196deg) skew(16deg);
+    transform: rotate(196deg) skew(17deg);
     border-right: 0px solid transparent;
-    border-left: 15px solid transparent;
-    border-bottom: 10px solid #002700;
+    border-left: 10px solid transparent;
+    border-bottom: 8px solid #002700;
     position: absolute;
     top: 597px;
     left: 2px;
@@ -104,7 +104,7 @@ body {
     height: 0;
     border-left: 230px solid transparent;
     border-right: 63px solid transparent;
-    border-bottom: 240px solid #4C3A1F;
+    border-bottom: 235px solid #4C3A1F;
     transform: rotate(195deg);
     position: absolute;
     top: 591px;
@@ -112,33 +112,45 @@ body {
   }
 
   .darkred2 {
-      /* background: #210703;
-      width: 390px;
-      height: 25px;
-      transform: rotate(150deg) skew(43deg);
-      position: relative;
-      top: 702px;
-      left: -59px; */
+    /* background: #210703;
+    width: 390px;
+    height: 25px;
+    transform: rotate(150deg) skew(43deg);
+    position: relative;
+    top: 702px;
+    left: -59px; */
 
-      width: 339px;
-      height: 13px;
-      transform: rotate(330deg) skew(43deg); 
-      border-right: 0px solid transparent;
-      border-left: 32px solid transparent;
-      border-bottom: 21px solid #210703;
-      position: absolute;
-      top: 699px;
-      left: -39px;
+    width: 339px;
+    height: 13px;
+    transform: rotate(330deg) skew(43deg); 
+    border-right: 0px solid transparent;
+    border-left: 32px solid transparent;
+    border-bottom: 21px solid #210703;
+    position: absolute;
+    top: 699px;
+    left: -39px;
   }
 
   .green3 {
-    width: 339px;
+    width: 327px;
     height: 0px;
-    transform: rotate(330deg) skew(58deg);
+    transform: rotate(330deg) skew(61deg);
     border-right: 0px solid transparent;
-    border-left: 18px solid transparent;
+    border-left: 19px solid transparent;
     border-bottom: 8px solid #003C00;
     position: absolute;
-    top: 720px;
+    top: 722px;
+    left: -23px;    
+  }
+
+  .green4 {
+    width: 312px;
+    height: 0px;
+    transform: rotate(330deg) skew(64deg);
+    border-right: 0px solid transparent;
+    border-left: 21px solid transparent;
+    border-bottom: 8px solid #002700;
+    position: absolute;
+    top: 717px;
     left: -23px;
   }
