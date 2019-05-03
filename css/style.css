@@ -1,8 +1,13 @@
+.container {
+    background: #008086;
+    width: 564px;
+    height: 810px;
+}
+
 #cloud{
     width: 200px;
     height: 80px;
     background: #f2f9fe;
-    /* background: -webkit-linear-gradient(-90deg,#f2f9fe 5%, #d6f0fd 100%); */
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
@@ -37,12 +42,6 @@
     -webkit-border-radius: 200px;
     -moz-border-radius: 200px;
     border-radius: 200px;
-}
-
-.container {
-    background: #008086;
-    width: 564px;
-    height: 840px;
 }
 
 .white1 {
