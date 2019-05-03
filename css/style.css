@@ -44,6 +44,8 @@
     border-radius: 200px;
 }
 
+/* Building Section */
+
 .white1 {
     background: #ffffff;
     width: 335px;
@@ -148,13 +150,6 @@
   }
 
 .darkred2 {
-    /* background: #210703;
-    width: 390px;
-    height: 25px;
-    transform: rotate(150deg) skew(43deg);
-    position: relative;
-    top: 702px;
-    left: -59px; */
 
     width: 339px;
     height: 13px;
@@ -190,4 +185,3 @@
     top: 714px;
     left: -23px;
 }
-
