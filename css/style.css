@@ -1,7 +1,11 @@
 .container {
+    position: relative;
     background: #008086;
     width: 564px;
-    height: 810px;
+    height: 816px;
+    margin: auto;
+    top: 20px;
+    border: 30px solid black;
 }
 
 #cloud{
@@ -46,57 +50,57 @@
 
 /* Building Section */
 
-.white1 {
+.parallelogram1 {
     background: #ffffff;
     width: 335px;
     height: 60px;
     transform: rotate(16deg) skew(16deg);
     position: absolute;
     top: 373px;
-    left: 1px;
+    right: 236px;
 }
 
-.red1 {
+.parallelogram2 {
     background: #C5342D;
     width: 335px;
     height: 25px;
     transform: rotate(16deg) skew(16deg);
     position: absolute;
     top: 434px;
-    left: 1px;
+    right: 236px;
 }
 
-.white2 {
+.parallelogram3 {
     background: #ffffff;
     width: 335px;
     height: 18px;
     transform: rotate(16deg) skew(16deg);
     position: absolute;
     top: 460px;
-    left: 1px;
+    right: 236px;
 }
 
-.red2 {
+.parallelogram4 {
     background: #C5342D;
     width: 335px;
     height: 95px;
     transform: rotate(16deg) skew(16deg);
     position: absolute;
     top: 480px;
-    left: 1px;
+    right: 236px;
 }
 
-.darkred1 {
+.trapezoid1 {
     background: #210703;
     width: 335px;
     height: 8px;
     transform: rotate(16deg) skew(16deg);
     position: absolute;
     top: 576px;
-    left: 1px;
+    right: 236px;
 }
 
-.black1 {
+.trapezoid2 {
     width: 310px;
     height: 12px;
     transform: rotate(196deg) skew(16deg);
@@ -105,26 +109,22 @@
     border-bottom: 10px solid black;
     position: absolute;
     top: 582px;
-    left: 2px;
+    right: 245px;
     z-index: 1
 }
 
-.green1 {
+.parallelogram5 {
     background: #003C00;
     width: 312px;
     height: 8px;
     transform: rotate(16deg) skew(16deg);
     position: absolute;
     top: 589px;
-    left: 2px;
+    right: 258px;
     z-index: 1;
 }
 
-.green2 {
-    /* background: #002700;
-    width: 266px;
-    height: 8px;
-    transform: rotate(16deg) skew(16deg); */
+.trapezoid3 {
     width: 302px;
     height: 8px;
     transform: rotate(196deg) skew(17deg);
@@ -133,7 +133,7 @@
     border-bottom: 8px solid #002700;
     position: absolute;
     top: 597px;
-    left: 2px;
+    right: 258px;
     z-index: 1;
 }
 
@@ -146,11 +146,10 @@
     transform: rotate(195deg);
     position: absolute;
     top: 591px;
-    left: -27px;
+    right: 306px;
   }
 
-.darkred2 {
-
+.trapezoid4 {
     width: 339px;
     height: 13px;
     transform: rotate(330deg) skew(43deg); 
@@ -159,10 +158,10 @@
     border-bottom: 21px solid #210703;
     position: absolute;
     top: 699px;
-    left: -39px;
+    right: 240px;
 }
 
-.green3 {
+.parallelogram6 {
     width: 327px;
     height: 0px;
     transform: rotate(330deg) skew(61deg);
@@ -171,10 +170,10 @@
     border-bottom: 8px solid #003C00;
     position: absolute;
     top: 722px;
-    left: -23px;    
+    right: 249px;    
 }
 
-.green4 {
+.trapezoid5 {
     width: 312px;
     height: 0px;
     transform: rotate(330deg) skew(56deg);
@@ -183,5 +182,5 @@
     border-bottom: 11px solid #002700;
     position: absolute;
     top: 714px;
-    left: -23px;
+    right: 262px;
 }
